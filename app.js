@@ -17,6 +17,9 @@ app.get('/about.html',(req, res) => {
     res.sendFile(`${__dirname}/public/html/about.html`)
 })
 
+app.get('/gallery.html',(req, res) => {
+    res.sendFile(`${__dirname}/public/html/gallery.html`)
+})
 
 app.listen(port, () => {
     console.log(`examp app listening on port ${port} `)
